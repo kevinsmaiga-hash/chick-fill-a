@@ -1,0 +1,98 @@
+import { MenuItem, StoreLocation } from './types';
+
+export const MENU_ITEMS: MenuItem[] = [
+  {
+    id: 's1',
+    name: 'Classic Zesty Sandwich',
+    description: 'Crispy chicken breast, pickles, and buttered bun.',
+    price: 6.49,
+    image: 'https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&q=80&w=800',
+    category: 'Sandwiches',
+    isPopular: true,
+  },
+  {
+    id: 's2',
+    name: 'Spicy Zesty Sandwich',
+    description: 'Spice-breaded chicken breast, pickles, and spicy sauce.',
+    price: 6.99,
+    image: 'https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=800',
+    category: 'Sandwiches',
+    isPopular: true,
+  },
+  {
+    id: 'n1',
+    name: '8-Piece Nuggets',
+    description: 'Bite-sized pieces of tender chicken breast, seasoned to perfection.',
+    price: 5.85,
+    image: 'https://images.unsplash.com/photo-1562967914-6cbb04bac2d7?auto=format&fit=crop&q=80&w=800',
+    category: 'Nuggets',
+  },
+  {
+    id: 'n2',
+    name: '12-Piece Nuggets',
+    description: 'More of our famous nuggets for those extra-hungry moments.',
+    price: 8.25,
+    image: 'https://images.unsplash.com/photo-1562967915-926fe5704179?auto=format&fit=crop&q=80&w=800',
+    category: 'Nuggets',
+  },
+  {
+    id: 'sd1',
+    name: 'Waffle Potato Fries',
+    description: 'Our signature fries, cooked until crispy and lightly salted.',
+    price: 2.85,
+    image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&q=80&w=800',
+    category: 'Sides',
+    isPopular: true,
+  },
+  {
+    id: 'sd2',
+    name: 'Kale Crunch Side',
+    description: 'A blend of curly kale and green cabbage with salted almonds.',
+    price: 4.15,
+    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800',
+    category: 'Sides',
+  },
+  {
+    id: 'd1',
+    name: 'Freshly Brewed Lemonade',
+    description: 'Real lemon juice, cane sugar, and water.',
+    price: 2.45,
+    image: 'https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=800',
+    category: 'Drinks',
+  },
+  {
+    id: 'd2',
+    name: 'Sweet Iced Tea',
+    description: 'Freshly brewed and sweetened with real cane sugar.',
+    price: 2.15,
+    image: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&q=80&w=800',
+    category: 'Drinks',
+  },
+];
+
+export const LOCATIONS: StoreLocation[] = [
+  {
+    id: 'l1',
+    name: 'Downtown Central',
+    address: '123 Main St, New York, NY 10001',
+    distance: '0.8 miles',
+    hours: '6:30 AM - 10:00 PM',
+    phone: '(212) 555-0123',
+  },
+  {
+    id: 'l2',
+    name: 'Westside Market',
+    address: '456 West Blvd, New York, NY 10014',
+    distance: '2.4 miles',
+    hours: '6:30 AM - 10:00 PM',
+    phone: '(212) 555-0456',
+  },
+  {
+    id: 'l3',
+    name: 'Upper East Square',
+    address: '789 Park Ave, New York, NY 10021',
+    distance: '4.1 miles',
+    hours: '6:30 AM - 10:00 PM',
+    phone: '(212) 555-0789',
+  },
+];
